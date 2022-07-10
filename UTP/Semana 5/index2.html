@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src='js/miscript.js'></script>
+</head>
+
+<body>
+    <form name="salida">
+        <label>Nombre</label>
+        <input type="text" name="nonmbre" id="nombre"><br>
+        <label>Genero</label><br>
+        <input type="radio" name="genero" value="Masculino">Masculino <br>
+        <input type="radio" name="genero" value="Femenino">Femenino <br>
+        <label>Estado Civil</label>
+        <select id="civil">
+            <option>Soltero</option>
+            <option>Casado</option>
+            <option>Viudo</option>
+            <option>Divorsiado</option>
+        </select> <br>
+
+        <label>Hobbies</label><br>
+        <input type="checkbox" id="nadar" value="Nadar">Nadar <br>
+        <input type="checkbox" name="leer" value="Leer">Leer <br>
+        <input type="checkbox" name="cantar" value="Cantar">Cantar <br>
+        <input type="button" name="mostrar" onclick="mostrarDatos()" value="Mostrar"> <br>
+
+        <label>Respuestas</label><br>
+        <textarea name="respuestas" id="" cols="30" rows="10"></textarea>
+
+    </form>
+</body>
+
+</html>

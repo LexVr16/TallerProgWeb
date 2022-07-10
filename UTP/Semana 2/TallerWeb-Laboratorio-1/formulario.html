@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form>
+        <fieldset with="50" height="50">
+            <legend>Información General</legend>
+            <label>Nombre:</label>
+            <input type="text" name="nombre"><br><br>
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos"><br><br>
+            <label>Distrito:</label>
+            <select name="distrito">
+                <option value="">Seleccion un distrito</option>
+                <option>Chimbote</option>
+                <option>Nuevo Chimbote</option>
+                <option>Cipreses</option>
+                <option>2 De Mayo</option>
+                <option>La Unión</option>
+                <option>El Carmen</option>
+                <option>Jose Pardo</option>
+                <option>Manuel Ruiz</option>
+            </select><br><br>
+            <label>Tipo de pago:</label><br>
+            <input type="radio" name="tpago" value="contado">Contado<br>
+            <input type="radio" name="tpago" value="efectivo">Efectivo<br><br>
+            <label>Intereses:</label><br>
+            <input type="checkbox" name="intereses">Juegos de mesa<br>
+            <input type="checkbox" name="intereses">Juguetes para niño<br>
+            <input type="checkbox" name="intereses">Juguetes para niña<br><br>
+            <label>Comentario:</label>
+            <p></p>
+            <textarea cols="40" rows="5"></textarea><br><br>
+            <input type="reset" name="borrar" value="Borrar">
+            <input type="submit" name="enviar" value="Enviar"><br>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

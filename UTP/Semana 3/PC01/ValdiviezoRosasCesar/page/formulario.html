@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset with="50" height="50">
+            <legend>Servicio de Vetnas</legend>
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td>
+                        <input type="text" name="nombre" size="30"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pedidos</td>
+                    <td><input type="checkbox" name="Pedido">Oferta 1<br>
+                        <input type="checkbox" name="Pedido">Oferta 2<br>
+                        <input type="checkbox" name="Pedido">Oferta 3<br>
+                        <input type="checkbox" name="Pedido">Complementos<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Distrito</td>
+                    <td>
+                        <select name="distritos []" id="distrito" size="3">
+                            <option value="Cercado">Cercado</option>
+                            <option value="Lince">Lince</option>
+                            <option value="Los Olivos">Los Olivos</option>
+                            <option value="Los Olivos">Chorrillos</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Sugerencia</label></td>
+                    <td>
+                        <textarea cols="30" rows="5"></textarea><br>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="borrar" value="Borrar"><br>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
