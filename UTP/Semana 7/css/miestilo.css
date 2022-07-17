@@ -1,0 +1,63 @@
+body{
+	background: #DFF4F2;
+	margin: 0 150px;
+	font-family: Roboto, Rubik, Tahoma, Arial, New Roman;
+	font-size: 18px
+}
+#logo{
+	width: 250px;
+	height: 90px;
+}
+.cabecera{
+	display: flex;
+	justify-content: space-between;
+	background: #70D3F3;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+	padding-right: 30px;
+	color: #ACA5A5;
+}
+a:hover{
+	color: orange;
+}
+.nosotros{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nosotros img{
+	width: 50%;
+}
+.item-nosotros{
+	flex-basis: calc(50% - 50px);
+}
+.formato{
+	text-align: center;	
+}
+.texto{
+	color: #F3CF77;
+}
+.especialistas{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.item-especialistas img{
+	width: 210px;
+	height: 300px;
+	border-radius: 30px;
+}
+.item-especialistas{
+	flex-basis: calc(33.3% - 50px);
+}
+main{
+	background: #B2EEF3;
+}
+footer{
+	background: #70D3F3;
+}
+.principal{
+	width: 100%;
+}
