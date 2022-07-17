@@ -1,12 +1,9 @@
 body{
 	background: #DFF4F2;
-	/*para dar un margen*/
 	margin: 0 150px;
 	font-family: Roboto, Rubik, Tahoma, Arial, New Roman;
 	font-size: 18px
 }
-
-/*relacionamos al id en html*/
 #logo{
 	width: 250px;
 	height: 90px;
@@ -17,11 +14,8 @@ body{
 	background: #70D3F3;
 	align-items: center;
 }
-
-/*le quitamos los subrayados a cabecera*/
 a{
 	text-decoration: none;
-	/*pa darle un epacio entre menu*/
 	padding-right: 30px;
 	color: white;
 }
